@@ -1,0 +1,20 @@
+{
+  "spike_analysis": {
+    "spike_window_hours": 72,
+    "pm25_min": 3.0,
+    "pm25_max": 767.0,
+    "pm25_mean": 158.02777777777777
+  },
+  "regression_spike": {
+    "mae": 23.058258725261656,
+    "rmse": 46.85211187249811,
+    "max_error": 218.07893040016808,
+    "rmse_mae_ratio": 2.0319015599026526
+  },
+  "arima_spike": {
+    "mae": 145.58804698390506,
+    "rmse": 201.97991113536136,
+    "max_error": 684.9575771449944,
+    "rmse_mae_ratio": 1.3873385577985704
+  }
+}
