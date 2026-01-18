@@ -4,7 +4,7 @@ import papermill as pm
 # Run notebooks end-to-end (classification + regression + ARIMA)
 os.makedirs("notebooks/runs", exist_ok=True)
 
-KERNEL = "beijing_env"
+KERNEL = "datamining"
 
 pm.execute_notebook(
     "notebooks/preprocessing_and_eda.ipynb",
